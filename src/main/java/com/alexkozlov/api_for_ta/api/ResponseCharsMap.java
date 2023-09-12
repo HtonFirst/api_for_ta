@@ -7,5 +7,5 @@ import java.util.Map;
 @Data
 @RequiredArgsConstructor
 public class ResponseCharsMap {
-    private final Map<Character, Long> resultMap;
+    private final Map<Character, Long> resultLinkedHashMap;
 }
